@@ -1,20 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="a7904f86-f2b4-8e86-fa97-74104820619b">
-    <mxGraphModel dx="1400" dy="1625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1940" dy="1315" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="24794b860abc3c2d-1" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;i&gt;cat_unidades&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;id_unidad SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;descripcion VARCHAR(20) NN&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
           <mxGeometry x="10" y="200" width="180" height="85" as="geometry" />
         </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-544" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=1.6;" edge="1" parent="1" source="24794b860abc3c2d-17" target="UsefbIZ3uV5enhDmJJH_-539">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="-125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="24794b860abc3c2d-17" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;cat_tipos&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_tipo SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;descripcion VARCHAR(50) NN&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" parent="1" vertex="1">
           <mxGeometry x="220" y="200" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-520" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-2" target="UsefbIZ3uV5enhDmJJH_-515">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="535" y="448" />
+              <mxPoint x="310" y="448" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;cat_bloqueos&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_bloqueo SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;descripcion VARCHAR(255) NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;area_responsable VARCHAR(?) NN&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="430" y="200" width="210" height="85" as="geometry" />
         </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-543" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=1.5;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-3" target="UsefbIZ3uV5enhDmJJH_-539">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="-125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-3" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;cat_marcas&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_marca SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;descripcion VARCHAR(50) NN&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="670" y="200" width="180" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-538" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-425" target="UsefbIZ3uV5enhDmJJH_-530">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="-220" />
+              <mxPoint x="2230" y="-220" />
+              <mxPoint x="2230" y="-130" />
+              <mxPoint x="3490" y="-130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-425" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;cat_tramites&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_tramite SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 102), rgb(255, 255, 255));&quot;&gt;clave_tramite&lt;/span&gt; VARCHAR(4) NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;descripcion VARCHAR(70) NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 102), rgb(255, 255, 255));&quot;&gt;estatus&lt;/span&gt; BOOLEAN(default = true)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="880" y="200" width="210" height="95" as="geometry" />
@@ -43,11 +76,11 @@
         <mxCell id="UsefbIZ3uV5enhDmJJH_-428" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;cat_distritos&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_distrito SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;nombre_region&lt;/span&gt; VARCHAR(50) NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;clave INT&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;NN&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_region FK INT NN&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="1360" y="350" width="210" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="UsefbIZ3uV5enhDmJJH_-452" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-430" target="UsefbIZ3uV5enhDmJJH_-425">
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-452" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.728;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-430" target="UsefbIZ3uV5enhDmJJH_-425">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-430" value="como es una clave tramite?&lt;div&gt;estatus default true?&lt;/div&gt;&lt;div&gt;estatus --&amp;gt; tramite_activo&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" width="215" height="140" as="geometry" />
+          <mxGeometry x="1020" y="10" width="215" height="140" as="geometry" />
         </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-451" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-431" target="UsefbIZ3uV5enhDmJJH_-427">
           <mxGeometry relative="1" as="geometry" />
@@ -103,7 +136,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1250" y="190" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1250" y="10" />
+              <mxPoint x="415" y="-50" />
+              <mxPoint x="1250" y="-50" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -209,6 +243,9 @@
         <mxCell id="UsefbIZ3uV5enhDmJJH_-486" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;cat_procedencias&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_procedencia SERIAL NN Longitud(1)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;procedencia VARCHAR(50) NN&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="2710" y="200" width="230" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-537" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-490" target="UsefbIZ3uV5enhDmJJH_-530">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-490" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;cat_estado_movimientos&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_estado_movimiento SERIAL NN Longitud(1)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;descripcion VARCHAR(30) NN&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
           <mxGeometry x="2980" y="200" width="270" height="90" as="geometry" />
         </mxCell>
@@ -246,9 +283,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-508" value="tipo_persona --&amp;gt; varchar(10) o enum&lt;div&gt;direccion puede ser otra tabla por la atomicidad&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="315" y="390" width="350" height="100" as="geometry" />
+          <mxGeometry x="330" y="470" width="350" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="UsefbIZ3uV5enhDmJJH_-509" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.406;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-508" target="UsefbIZ3uV5enhDmJJH_-492">
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-509" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-508" target="UsefbIZ3uV5enhDmJJH_-492">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-510" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.07;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-479" target="UsefbIZ3uV5enhDmJJH_-504">
@@ -262,6 +299,56 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UsefbIZ3uV5enhDmJJH_-513" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.007;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-457" target="UsefbIZ3uV5enhDmJJH_-504">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-515" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;bloqueados&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_bloqueado SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;estatus&lt;/span&gt; BOOLEAN(default = false) AllowNull&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;justificacion_desbloqueo VARCHAR(500) AllowNull&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;numero_memo_desbloqueo&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(100) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_desbloqueo TIMESTAMP AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;justificacion_bloqueo VARCHAR(500) AllowNull&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;numero_memo_bloqueo&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(100) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_bloqueo TIMESTAMP AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_concesionario FK INT NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;id_bloqueo&lt;/span&gt; FK INT NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="610" width="315" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-517" value="estatus --&amp;gt; bloqueo_activo&lt;div&gt;es necesaria la tabla cat_bloqueos?&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="630" width="340" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-518" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-517" target="UsefbIZ3uV5enhDmJJH_-515">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-527" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.312;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=2;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-492" target="UsefbIZ3uV5enhDmJJH_-515">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-530" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;movimientos&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_movimiento SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;folio_unico&lt;/span&gt; INT AllowNull&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;folio_movimiento&lt;/span&gt; INT NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;folio_referencia&lt;/span&gt;&amp;nbsp;INT NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;fecha_alta TIMESTAMP NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;fecha_captura TIMESTAMP NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;usuario_autoriza&lt;/span&gt; VARCHAR(50) AllowNull&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;usuario_captura&lt;/span&gt; VARCHAR(50) NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_concesion FK INT AllowNull&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_tramite FK INT NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;estatus &lt;/span&gt;FK VARCHAR(1) AllowNull&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="3370" y="-10" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-533" value="folio_unico y folio_movimiento es lo mismo?&lt;div&gt;es necesaria la tabla cat_estado_movimiento? - estatus --&amp;gt; estado_movimiento&lt;/div&gt;&lt;div&gt;estado -&amp;gt; enum con estados --&amp;gt; estado_movimiento&lt;/div&gt;&lt;div&gt;usurio_* -&amp;gt; id_usuario_* --&amp;gt; FK de una tabla usuarios&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3725" y="-90" width="390" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-535" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.354;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-533" target="UsefbIZ3uV5enhDmJJH_-530">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-536" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;strokeWidth=3;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-504" target="UsefbIZ3uV5enhDmJJH_-530">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2425" y="1020" />
+              <mxPoint x="3490" y="1020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-539" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;marca_tipos&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_marca_tipos SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;id_marca FK INT AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;id_tipo FK INT AllowNull&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="310" y="-170" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-546" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-545" target="UsefbIZ3uV5enhDmJJH_-539">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-545" value="es necesaria la tabla?&lt;br&gt;porque el id en NN y los 2 campos no, puede haber un registro vacio" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-380" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-547" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;cat_estado_movimientos&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_estado_movimiento SERIAL NN Longitud(1)&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;descripcion VARCHAR(30) NN&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="3190" y="690" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-549" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;b&gt;&lt;i&gt;vehiculos&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;id_vehiculo SERIAL NN&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;folio_movimiento VARCHAR(10) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;folio_unico VARCHAR(10) AllowNull&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;modelo INT NN&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;numero_motor&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt; VARCHAR(50) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;numero_serie&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt; VARCHAR(50) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;puertas&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt; INT AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;capacidad&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt; VARCHAR(10) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;factura&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt; VARCHAR(10) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;fecha_factura DATE NN&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;numero_economico&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(16) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: light-dark(rgb(255, 255, 51), rgb(255, 255, 255));&quot;&gt;numero_poliza&lt;/span&gt;&amp;nbsp;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(20) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(255, 255, 51);&quot;&gt;fecha_vencimiento_poliza&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; DATE AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(255, 255, 51);&quot;&gt;poliza_vencida&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; BOOLEAN(default = false)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: rgb(255, 255, 51);&quot;&gt;estatus&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; VARCHAR(1) NN&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;tipo&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(1) AllowNull&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;id_unidad FK INT NN&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 51);&quot;&gt;id_marca_tipos&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt; FK INT NN&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="2250" y="1120" width="270" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-552" value="numero_motor --&amp;gt; unique y NN&lt;div&gt;numero_serie --&amp;gt; unique y NN&lt;/div&gt;&lt;div&gt;puertas --&amp;gt; numero_puertas y NN&lt;/div&gt;&lt;div&gt;capacidad --&amp;gt; INT y NN&lt;/div&gt;&lt;div&gt;tabla cat_unidades esta de mas?&lt;/div&gt;&lt;div&gt;factura varchar?? --&amp;gt; Archivo y NN&lt;/div&gt;&lt;div&gt;numero_poliza y vencimiento poliza NN&lt;/div&gt;&lt;div&gt;numero economico en concesiones es de 6, es el mismo o es diferente? tabla de numeros economicos&lt;/div&gt;&lt;div&gt;estatus que es?&lt;/div&gt;&lt;div&gt;tipo lo veo innecesario ya que esta la tabla marca_tipos&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1090" width="290" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="UsefbIZ3uV5enhDmJJH_-553" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.016;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UsefbIZ3uV5enhDmJJH_-552" target="UsefbIZ3uV5enhDmJJH_-549">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
